@@ -74,7 +74,7 @@
     "jotai": "^2.1.0",
     "jotai-immer": "^0.2.0",
     "js-base64": "^3.7.5",
-    "langchain": "^0.0.84",
+    "langchain": "^0.0.91",
     "lodash-es": "^4.17.21",
     "lucide-react": "^0.223.0",
     "md5": "^2.3.0",
