@@ -4170,10 +4170,10 @@ kleur@^4.0.3:
   resolved "https://registry.npmjs.org/kleur/-/kleur-4.1.5.tgz"
   integrity sha512-o+NO+8WrRiQEE4/7nwRJhN1HWpVmJm511pBHUxPLtp0BUISzlBplORYSmTclCnJvQq2tKu/sgl3xVpkc7ZWuQQ==
 
-langchain@^0.0.84:
-  version "0.0.84"
-  resolved "https://registry.npmjs.org/langchain/-/langchain-0.0.84.tgz"
-  integrity sha512-7b7CIwHE1vB973wRRC0GmU9Jj2bt/xN5SA17VeoHa6zuNunawC2wFUfjQzNtSw+RHtMX0VHUjoBOqQCKGktbXQ==
+langchain@^0.0.92:
+  version "0.0.92"
+  resolved "https://registry.yarnpkg.com/langchain/-/langchain-0.0.92.tgz#235c201dd6007d317e82f644095722f1fa2cb5ae"
+  integrity sha512-77528kXJu9C391qV1a5jDzZLEjIblq/VtpH7xd4BwavgvhRmeSXR9WkrHHmih/Phpae4Ss3dtb7pcyd78rp/YA==
   dependencies:
     "@anthropic-ai/sdk" "^0.4.3"
     ansi-styles "^5.0.0"
@@ -6640,15 +6640,10 @@ yaml@^1.10.0:
   resolved "https://registry.npmjs.org/yaml/-/yaml-1.10.2.tgz"
   integrity sha512-r3vXyErRCYJ7wg28yvBY5VSoAF8ZvlcW9/BwUzEtUsjvX/DKs24dIkuwjtuprwJJHsbyUbLApepYTR1BN4uHrg==
 
-yaml@^2.1.1:
+yaml@^2.1.1, yaml@^2.2.1:
   version "2.3.1"
   resolved "https://registry.npmjs.org/yaml/-/yaml-2.3.1.tgz"
   integrity sha512-2eHWfjaoXgTBC2jNM1LRef62VQa0umtvRiDSk6HSzW7RvS5YtkabJrwYLLEKWBc8a5U2PTSCs+dJjUTJdlHsWQ==
-
-yaml@^2.2.1:
-  version "2.2.2"
-  resolved "https://registry.npmjs.org/yaml/-/yaml-2.2.2.tgz"
-  integrity sha512-CBKFWExMn46Foo4cldiChEzn7S7SRV+wqiluAb6xmueD/fGyRHIhX8m14vVGgeFWjN540nKCNVj6P21eQjgTuA==
 
 yocto-queue@^0.1.0:
   version "0.1.0"
