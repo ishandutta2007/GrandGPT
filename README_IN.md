@@ -87,5 +87,5 @@
 
 ### Kredit
 
-Proyek ini terinspirasi oleh https://github.com/ZohaibAhmed/ChatGPT-Google , https://github.com/wong2/chatgpt-google-extension and https://github.com/chathub-dev/chathub
+Proyek ini terinspirasi oleh https://github.com/ZohaibAhmed/ChatGPT-Google , https://github.com/wong2/chatgpt-google-extension and https://github.com/ishandutta2007/GrandGPT
 

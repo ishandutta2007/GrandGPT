@@ -1,7 +1,7 @@
 import Plausible from 'plausible-tracker'
 
 export const plausible = Plausible({
-  domain: 'singularitylabs-ai.github.io',
+  domain: 'chathub.gg',
   hashMode: true,
   apiHost: import.meta.env.VITE_PLAUSIBLE_API_HOST || 'https://plausible.io',
 })

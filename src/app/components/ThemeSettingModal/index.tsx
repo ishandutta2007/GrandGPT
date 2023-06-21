@@ -30,8 +30,6 @@ const Button: FC<ComponentPropsWithoutRef<'button'>> = (props) => {
 
 const THEME_COLORS = [
   getDefaultThemeColor(),
-  '#39298D',
-  '#6756BD',
   '#FF6900',
   '#7BDCB5',
   '#00D084',
@@ -115,7 +113,12 @@ const ThemeSettingModal: FC<Props> = (props) => {
           <p className="font-bold text-lg mb-3">
             {t('Theme Color')}{' '}
             {!premiumState.activated && (
-              <Link to="/premium" className="text-sm font-normal ml-1 underline italic" onClick={() => props.onClose()}>
+              <Link
+                to="/premium"
+                search={{ source: 'theme' }}
+                className="text-sm font-normal ml-1 underline italic"
+                onClick={() => props.onClose()}
+              >
                 ({t('Premium Feature')})
               </Link>
             )}

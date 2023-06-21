@@ -87,5 +87,5 @@
 
 ### 信用
 
-這個項目的靈感來自 https://github.com/ZohaibAhmed/ChatGPT-Google , https://github.com/wong2/chatgpt-google-extension and https://github.com/chathub-dev/chathub
+這個項目的靈感來自 https://github.com/ZohaibAhmed/ChatGPT-Google , https://github.com/wong2/chatgpt-google-extension and https://github.com/ishandutta2007/GrandGPT
 

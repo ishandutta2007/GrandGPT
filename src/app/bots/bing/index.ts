@@ -131,7 +131,7 @@ export class BingWebBot extends AbstractBot {
 
     const conversation = this.conversationContext!
 
-    const wsp = new WebSocketAsPromised('wss://sydney.bing.com/sydney/GrandGPT', {
+    const wsp = new WebSocketAsPromised('wss://sydney.bing.com/sydney/ChatHub', {
       packMessage: websocketUtils.packMessage,
       unpackMessage: websocketUtils.unpackMessage,
     })
@@ -163,7 +163,10 @@ export class BingWebBot extends AbstractBot {
           if (!messages) {
             params.onEvent({
               type: 'ERROR',
-              error: new ChatError(event.item.result.error || 'Unknown error', ErrorCode.UNKOWN_ERROR),
+              error: new ChatError(
+                event.item.result.error || 'Unknown error',
+                event.item.result.value === 'CaptchaChallenge' ? ErrorCode.BING_CAPTCHA : ErrorCode.UNKOWN_ERROR,
+              ),
             })
             return
           }

@@ -88,5 +88,5 @@
 
 ### クレジット
 
-このプロジェクトのインスピレーションとなったのは、 https://github.com/ZohaibAhmed/ChatGPT-Google , https://github.com/wong2/chatgpt-google-extension and https://github.com/chathub-dev/chathub
+このプロジェクトのインスピレーションとなったのは、 https://github.com/ZohaibAhmed/ChatGPT-Google , https://github.com/wong2/chatgpt-google-extension and https://github.com/ishandutta2007/GrandGPT
 

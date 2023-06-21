@@ -87,5 +87,5 @@
 
 ### 信用
 
-这个项目的灵感来自 https://github.com/ZohaibAhmed/ChatGPT-Google , https://github.com/wong2/chatgpt-google-extension and https://github.com/chathub-dev/chathub
+这个项目的灵感来自 https://github.com/ZohaibAhmed/ChatGPT-Google , https://github.com/wong2/chatgpt-google-extension and https://github.com/ishandutta2007/GrandGPT
 
