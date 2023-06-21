@@ -70,6 +70,11 @@ English &nbsp;&nbsp;|&nbsp;&nbsp; [Indonesia](README_IN.md) &nbsp;&nbsp;|&nbsp;&
 * Vicuna
 * ...
 
+## TODO Bots
+
+* https://www.perplexity.ai/
+* 
+
 ## 🔧 Manual Installation
 
 - Download grandgpt.zip from [Releases](https://github.com/ishandutta2007/GrandGPT/releases)
