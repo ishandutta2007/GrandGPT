@@ -6,7 +6,7 @@
 
 <div align="center">
 
-### GrandGPT adalah klien chatbot all-in-one
+### GrandGPT adalah klien chatbot
 
 [![author][author-image]][author-url]
 [![license][license-image]][license-url]
