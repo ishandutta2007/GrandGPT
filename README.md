@@ -6,7 +6,7 @@
 
 <div align="center">
 
-### GrandGPT is an all-in-one chatbot client
+### GrandGPT is a multi-chatbot
 
 [![author][author-image]][author-url]
 [![license][license-image]][license-url]

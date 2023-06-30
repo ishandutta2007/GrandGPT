@@ -178,7 +178,7 @@ function CommunityPrompts(props: { insertPrompt: (text: string) => void }) {
       <span className="text-sm mt-5 block text-primary-text">
         Contribute on{' '}
         <a
-          href="https://github.com/chathub-dev/community-prompts"
+          href="https://github.com/SingularityLabs-ai/prompts-library"
           target="_blank"
           rel="noreferrer"
           className="underline"
