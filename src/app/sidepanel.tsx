@@ -8,13 +8,13 @@ import Button from './components/Button'
 import { usePremium } from './hooks/use-premium'
 import './i18n'
 import SidePanelPage from './pages/SidePanelPage'
-import { trackEvent } from './plausible'
+// import { trackEvent } from './plausible'
 
 function PremiumOnly() {
   const { t } = useTranslation()
 
   const openPremiumPage = useCallback(() => {
-    trackEvent('open_premium_from_sidepanel')
+    // trackEvent('open_premium_from_sidepanel')
     window.open(Browser.runtime.getURL('app.html#/premium'), '_blank')
   }, [])
 

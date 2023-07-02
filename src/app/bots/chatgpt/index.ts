@@ -9,6 +9,8 @@ import { PoeWebBot } from '../poe'
 export class ChatGPTBot extends AsyncAbstractBot {
   async initializeBot() {
     const { chatgptMode, ...config } = await getUserConfig()
+    console.log('Using chatgptMode:', chatgptMode)
+    console.log('config :', config)
     if (chatgptMode === ChatGPTMode.API) {
       if (!config.openaiApiKey) {
         throw new ChatError('OpenAI API key not set', ErrorCode.API_KEY_NOT_SET)

@@ -44,7 +44,9 @@ export class ChatGPTWebBot extends AbstractBot {
       this.accessToken = await chatGPTClient.getAccessToken()
     }
     const modelName = await this.getModelName()
-    console.debug('Using model:', modelName)
+    console.log('Using model:', modelName)
+    console.log('ChatGPTWebBot params:', params)
+    console.log('ChatGPTWebBot conversationContext:', this.conversationContext)
 
     const resp = await chatGPTClient.fetch('https://chat.openai.com/backend-api/conversation', {
       method: 'POST',

@@ -37,6 +37,7 @@ export abstract class AbstractChatGPTApiBot extends AbstractBot {
       messages.push(result)
       updateTokenUsage(messages).catch(console.error)
     }
+    console.log('ChatGPT-api params:', params)
 
     await parseSSEResponse(resp, (message) => {
       console.debug('chatgpt sse message', message)
