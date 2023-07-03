@@ -10,7 +10,7 @@ import LayoutSwitch from '~app/components/Chat/LayoutSwitch'
 import PremiumFeatureModal from '~app/components/PremiumFeatureModal'
 import { useChat } from '~app/hooks/use-chat'
 import { usePremium } from '~app/hooks/use-premium'
-import { trackEvent } from '~app/plausible'
+// import { trackEvent } from '~app/plausible'
 import { BotId } from '../bots'
 import ConversationPanel from '../components/Chat/ConversationPanel'
 
@@ -50,14 +50,14 @@ const GeneralChatPanel: FC<{
       } else {
         uniqBy(chats, (c) => c.botId).forEach((c) => c.sendMessage(input))
       }
-      trackEvent('send_messages', { count: chats.length })
+      // trackEvent('send_messages', { count: chats.length })
     },
     [chats, disabled],
   )
 
   const onSwitchBot = useCallback(
     (botId: BotId, index: number) => {
-      trackEvent('switch_bot', { botId, panel: chats.length })
+      // trackEvent('switch_bot', { botId, panel: chats.length })
       setBots((bots) => {
         const newBots = [...bots]
         newBots[index] = botId
@@ -69,7 +69,7 @@ const GeneralChatPanel: FC<{
 
   const onLayoutChange = useCallback(
     (v: number) => {
-      trackEvent('switch_all_in_one_layout', { layout: v })
+      // trackEvent('switch_all_in_one_layout', { layout: v })
       setLayout(v)
     },
     [setLayout],

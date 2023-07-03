@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next'
 import { BeatLoader } from 'react-spinners'
 import useSWR from 'swr'
 import closeIcon from '~/assets/icons/close.svg'
-import { trackEvent } from '~app/plausible'
+// import { trackEvent } from '~app/plausible'
 import { Prompt, loadLocalPrompts, loadRemotePrompts, removeLocalPrompt, saveLocalPrompt } from '~services/prompts'
 import { uuid } from '~utils'
 import Button from '../Button'
@@ -106,7 +106,7 @@ function LocalPrompts(props: { insertPrompt: (text: string) => void }) {
       const existed = await saveLocalPrompt(prompt)
       localPromptsQuery.mutate()
       setFormData(null)
-      trackEvent(existed ? 'edit_local_prompt' : 'add_local_prompt')
+      // trackEvent(existed ? 'edit_local_prompt' : 'add_local_prompt')
     },
     [localPromptsQuery],
   )
@@ -115,7 +115,7 @@ function LocalPrompts(props: { insertPrompt: (text: string) => void }) {
     async (id: string) => {
       await removeLocalPrompt(id)
       localPromptsQuery.mutate()
-      trackEvent('remove_local_prompt')
+      // trackEvent('remove_local_prompt')
     },
     [localPromptsQuery],
   )
@@ -200,7 +200,7 @@ const PromptLibrary = (props: { insertPrompt: (text: string) => void }) => {
   const insertPrompt = useCallback(
     (text: string) => {
       props.insertPrompt(text)
-      trackEvent('use_prompt')
+      // trackEvent('use_prompt')
     },
     [props],
   )

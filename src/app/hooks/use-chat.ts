@@ -1,6 +1,6 @@
 import { useAtom } from 'jotai'
 import { useCallback, useEffect, useMemo } from 'react'
-import { trackEvent } from '~app/plausible'
+// import { trackEvent } from '~app/plausible'
 import { chatFamily } from '~app/state'
 import { setConversationMessages } from '~services/chat-history'
 import { ChatMessageModel } from '~types'
@@ -25,7 +25,7 @@ export function useChat(botId: BotId) {
 
   const sendMessage = useCallback(
     async (input: string) => {
-      trackEvent('send_message', { botId })
+      // trackEvent('send_message', { botId })
       const botMessageId = uuid()
       setChatState((draft) => {
         draft.messages.push({ id: uuid(), text: input, author: 'user' }, { id: botMessageId, text: '', author: botId })

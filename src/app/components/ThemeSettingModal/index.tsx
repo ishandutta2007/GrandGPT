@@ -5,7 +5,7 @@ import { ComponentPropsWithoutRef, FC, useCallback, useEffect, useState } from '
 import { ColorResult, TwitterPicker } from 'react-color'
 import { useTranslation } from 'react-i18next'
 import { usePremium } from '~app/hooks/use-premium'
-import { trackEvent } from '~app/plausible'
+// import { trackEvent } from '~app/plausible'
 import { followArcThemeAtom, themeColorAtom } from '~app/state'
 import { applyThemeMode, getDefaultThemeColor } from '~app/utils/color-scheme'
 import { isArcBrowser } from '~app/utils/env'
@@ -69,7 +69,7 @@ const ThemeSettingModal: FC<Props> = (props) => {
       }
       Browser.tabs.setZoom(newZoom)
       setZoomLevel(newZoom)
-      trackEvent('change_zoom_level', { zoom: newZoom })
+      // trackEvent('change_zoom_level', { zoom: newZoom })
     },
     [zoomLevel],
   )
@@ -78,13 +78,13 @@ const ThemeSettingModal: FC<Props> = (props) => {
     setUserThemeMode(mode)
     setThemeMode(mode)
     applyThemeMode(mode)
-    trackEvent('change_theme_mode', { mode })
+    // trackEvent('change_theme_mode', { mode })
   }, [])
 
   const onThemeColorChange = useCallback(
     (color: ColorResult) => {
       setThemeColor(color.hex)
-      trackEvent('change_theme_color', { color: color.hex })
+      // trackEvent('change_theme_color', { color: color.hex })
     },
     [setThemeColor],
   )

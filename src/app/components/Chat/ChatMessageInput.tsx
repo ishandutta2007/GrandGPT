@@ -15,7 +15,7 @@ import cx from 'classnames'
 import { FC, memo, ReactNode, useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import { GoBook } from 'react-icons/go'
-import { trackEvent } from '~app/plausible'
+// import { trackEvent } from '~app/plausible'
 import { Prompt } from '~services/prompts'
 import Button from '../Button'
 import PromptCombobox, { ComboboxContext } from '../PromptCombobox'
@@ -58,12 +58,12 @@ const ChatMessageInput: FC<Props> = (props) => {
     if (p.id === 'PROMPT_LIBRARY') {
       setIsPromptLibraryDialogOpen(true)
       setIsComboboxOpen(false)
-      trackEvent('open_prompt_library', { source: 'combobox' })
+      // trackEvent('open_prompt_library', { source: 'combobox' })
     } else {
       setValue(p.prompt)
       setIsComboboxOpen(false)
       inputRef.current?.focus()
-      trackEvent('use_prompt', { source: 'combobox' })
+      // trackEvent('use_prompt', { source: 'combobox' })
     }
   }, [])
 
@@ -121,7 +121,7 @@ const ChatMessageInput: FC<Props> = (props) => {
 
   useEffect(() => {
     if (isComboboxOpen) {
-      trackEvent('open_prompt_combobox')
+      // trackEvent('open_prompt_combobox')
     }
   }, [isComboboxOpen])
 
@@ -139,7 +139,7 @@ const ChatMessageInput: FC<Props> = (props) => {
 
   const openPromptLibrary = useCallback(() => {
     setIsPromptLibraryDialogOpen(true)
-    trackEvent('open_prompt_library')
+    // trackEvent('open_prompt_library')
   }, [])
 
   return (
