@@ -86,7 +86,7 @@ function PremiumPage() {
   //       <FeatureItem text={t('Customize theme')} />
   //       <FeatureItem
   //         text={t('Quick access in Chrome side bar')}
-  //         link="https://github.com/ishandutta2007/GrandGPT/wiki/Access-from-Chrome-side-panel"
+  //         link="https://github.com/SingularityLabs-ai/GrandGPT/wiki/Access-from-Chrome-side-panel"
   //       />
   //       <FeatureItem text={t('Activate up to 5 devices')} />
   //       <FeatureItem text={t('More features in the future')} />

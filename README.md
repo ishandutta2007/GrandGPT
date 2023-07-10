@@ -29,11 +29,11 @@ English &nbsp;&nbsp;|&nbsp;&nbsp; [Indonesia](README_IN.md) &nbsp;&nbsp;|&nbsp;&
 [author-image]: https://img.shields.io/badge/author-wong2-blue.svg
 [author-url]: https://github.com/wong2
 [license-image]: https://img.shields.io/github/license/ishandutta2007/GrandGPT?color=blue
-[license-url]: https://github.com/ishandutta2007/GrandGPT/blob/main/LICENSE
+[license-url]: https://github.com/SingularityLabs-ai/GrandGPT/blob/main/LICENSE
 [release-image]: https://img.shields.io/github/v/release/ishandutta2007/GrandGPT?color=blue
-[release-url]: https://github.com/ishandutta2007/GrandGPT/releases/latest
+[release-url]: https://github.com/SingularityLabs-ai/GrandGPT/releases/latest
 [last-commit-image]: https://img.shields.io/github/last-commit/ishandutta2007/GrandGPT?label=last%20commit
-[last-commit-url]: https://github.com/ishandutta2007/GrandGPT/commits
+[last-commit-url]: https://github.com/SingularityLabs-ai/GrandGPT/commits
 
 </div>
 
@@ -77,7 +77,7 @@ English &nbsp;&nbsp;|&nbsp;&nbsp; [Indonesia](README_IN.md) &nbsp;&nbsp;|&nbsp;&
 
 ## 🔧 Manual Installation
 
-- Download grandgpt.zip from [Releases](https://github.com/ishandutta2007/GrandGPT/releases)
+- Download grandgpt.zip from [Releases](https://github.com/SingularityLabs-ai/GrandGPT/releases)
 - Unzip the file
 - In Chrome/Edge go to the extensions page (chrome://extensions or edge://extensions)
 - Enable Developer Mode
@@ -92,5 +92,5 @@ English &nbsp;&nbsp;|&nbsp;&nbsp; [Indonesia](README_IN.md) &nbsp;&nbsp;|&nbsp;&
 
 ### Credit
 
-This project is inspired by https://github.com/ZohaibAhmed/ChatGPT-Google , https://github.com/wong2/chatgpt-google-extension and https://github.com/ishandutta2007/GrandGPT
+This project is inspired by https://github.com/ZohaibAhmed/ChatGPT-Google , https://github.com/wong2/chatgpt-google-extension and https://github.com/SingularityLabs-ai/GrandGPT
 

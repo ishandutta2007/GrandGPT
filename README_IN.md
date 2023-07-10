@@ -29,11 +29,11 @@
 [author-image]: https://img.shields.io/badge/author-wong2-blue.svg
 [author-url]: https://github.com/wong2
 [license-image]: https://img.shields.io/github/license/ishandutta2007/GrandGPT?color=blue
-[license-url]: https://github.com/ishandutta2007/GrandGPT/blob/main/LICENSE
+[license-url]: https://github.com/SingularityLabs-ai/GrandGPT/blob/main/LICENSE
 [release-image]: https://img.shields.io/github/v/release/ishandutta2007/GrandGPT?color=blue
-[release-url]: https://github.com/ishandutta2007/GrandGPT/releases/latest
+[release-url]: https://github.com/SingularityLabs-ai/GrandGPT/releases/latest
 [last-commit-image]: https://img.shields.io/github/last-commit/ishandutta2007/GrandGPT?label=last%20commit
-[last-commit-url]: https://github.com/ishandutta2007/GrandGPT/commits
+[last-commit-url]: https://github.com/SingularityLabs-ai/GrandGPT/commits
 
 </div>
 
@@ -72,7 +72,7 @@
 
 ## 🔧 Instalasi Manual
 
-- Unduh grandgpt.zip dari [Release](https://github.com/ishandutta2007/GrandGPT/releases)
+- Unduh grandgpt.zip dari [Release](https://github.com/SingularityLabs-ai/GrandGPT/releases)
 - Ekstrak file
 - Di Chrome/Edge, buka halaman ekstensi (chrome://extensions atau edge://extensions)
 - Aktifkan Mode Pengembang
@@ -87,5 +87,5 @@
 
 ### Kredit
 
-Proyek ini terinspirasi oleh https://github.com/ZohaibAhmed/ChatGPT-Google , https://github.com/wong2/chatgpt-google-extension and https://github.com/ishandutta2007/GrandGPT
+Proyek ini terinspirasi oleh https://github.com/ZohaibAhmed/ChatGPT-Google , https://github.com/wong2/chatgpt-google-extension and https://github.com/SingularityLabs-ai/GrandGPT
 

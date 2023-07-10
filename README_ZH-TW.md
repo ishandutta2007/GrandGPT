@@ -29,11 +29,11 @@
 [作者-image]: https://img.shields.io/badge/author-wong2-blue.svg
 [作者-url]: https://github.com/wong2    
 [許可證-image]: https://img.shields.io/github/license/ishandutta2007/GrandGPT?color=blue
-[許可證-url]: https://github.com/ishandutta2007/GrandGPT/blob/main/LICENSE
+[許可證-url]: https://github.com/SingularityLabs-ai/GrandGPT/blob/main/LICENSE
 [發布-image]: https://img.shields.io/github/v/release/ishandutta2007/GrandGPT?color=blue
-[發布-url]: https://github.com/ishandutta2007/GrandGPT/releases/latest
+[發布-url]: https://github.com/SingularityLabs-ai/GrandGPT/releases/latest
 [版本發佈-image]: https://img.shields.io/github/last-commit/ishandutta2007/GrandGPT?label=last%20commit
-[版本發佈-url]: https://github.com/ishandutta2007/GrandGPT/commits
+[版本發佈-url]: https://github.com/SingularityLabs-ai/GrandGPT/commits
 
 </div>
 
@@ -72,7 +72,7 @@
 
 ## 🔧 手動安裝
 
-- 從 [Releases](https://github.com/ishandutta2007/GrandGPT/releases) 下載 grandgpt.zip
+- 從 [Releases](https://github.com/SingularityLabs-ai/GrandGPT/releases) 下載 grandgpt.zip
 - 解壓縮該文件
 - 在 Chrome/Edge 瀏覽器中，前往擴展功能頁面 (chrome://extensions 或 edge://extensions)
 - 啟用開發人員模式
@@ -87,5 +87,5 @@
 
 ### 信用
 
-這個項目的靈感來自 https://github.com/ZohaibAhmed/ChatGPT-Google , https://github.com/wong2/chatgpt-google-extension and https://github.com/ishandutta2007/GrandGPT
+這個項目的靈感來自 https://github.com/ZohaibAhmed/ChatGPT-Google , https://github.com/wong2/chatgpt-google-extension and https://github.com/SingularityLabs-ai/GrandGPT
 

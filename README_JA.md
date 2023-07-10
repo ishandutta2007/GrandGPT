@@ -29,11 +29,11 @@
 [author-image]: https://img.shields.io/badge/author-wong2-blue.svg
 [author-url]: https://github.com/wong2    
 [license-image]: https://img.shields.io/github/license/ishandutta2007/GrandGPT?color=blue
-[license-url]: https://github.com/ishandutta2007/GrandGPT/blob/main/LICENSE
+[license-url]: https://github.com/SingularityLabs-ai/GrandGPT/blob/main/LICENSE
 [release-image]: https://img.shields.io/github/v/release/ishandutta2007/GrandGPT?color=blue
-[release-url]: https://github.com/ishandutta2007/GrandGPT/releases/latest   
+[release-url]: https://github.com/SingularityLabs-ai/GrandGPT/releases/latest
 [last-commit-image]: https://img.shields.io/github/last-commit/ishandutta2007/GrandGPT?label=last%20commit
-[last-commit-url]: https://github.com/ishandutta2007/GrandGPT/commits
+[last-commit-url]: https://github.com/SingularityLabs-ai/GrandGPT/commits
 
 </div>
 
@@ -73,7 +73,7 @@
 
 ## 🔧 手動インストール
 
-- [リリース](https://github.com/ishandutta2007/GrandGPT/releases)から GrandGPT.zip をダウンロード
+- [リリース](https://github.com/SingularityLabs-ai/GrandGPT/releases)から GrandGPT.zip をダウンロード
 - ファイルを解凍
 - Chrome/Edge で拡張機能ページに移動します (chrome://extensions または edge://extensions)
 - 開発者モードを有効にする
@@ -88,5 +88,5 @@
 
 ### クレジット
 
-このプロジェクトのインスピレーションとなったのは、 https://github.com/ZohaibAhmed/ChatGPT-Google , https://github.com/wong2/chatgpt-google-extension and https://github.com/ishandutta2007/GrandGPT
+このプロジェクトのインスピレーションとなったのは、 https://github.com/ZohaibAhmed/ChatGPT-Google , https://github.com/wong2/chatgpt-google-extension and https://github.com/SingularityLabs-ai/GrandGPT
 
