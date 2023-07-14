@@ -9,7 +9,7 @@ import feedbackIcon from '~/assets/icons/feedback.svg'
 import githubIcon from '~/assets/icons/github.svg'
 import settingIcon from '~/assets/icons/setting.svg'
 import themeIcon from '~/assets/icons/theme.svg'
-import logo from '~/assets/logo.svg'
+import logo from '~/assets/logo.png'
 import minimalLogo from '~/assets/minimal-logo.svg'
 import { useEnabledBots } from '~app/hooks/use-enabled-bots'
 import { sidebarCollapsedAtom } from '~app/state'
@@ -48,7 +48,7 @@ function Sidebar() {
         className={cx('w-6 h-6 cursor-pointer my-5', collapsed ? 'rotate-180' : 'self-end')}
         onClick={() => setCollapsed((c) => !c)}
       />
-      {collapsed ? <img src={minimalLogo} className="w-[30px]" /> : <img src={logo} className="w-[79px]" />}
+      {collapsed ? <img src={minimalLogo} className="w-[30px]" /> : <a href="https://singularitylabs-ai.github.io/grandgpt"><img src={logo} className="w-[79px]" /></a>}
       <div className="flex flex-col gap-3 mt-12 overflow-y-auto scrollbar-none">
         <NavLink to="/" text={'All-In-One'} icon={allInOneIcon} iconOnly={collapsed} />
         {enabledBots.map(({ botId, bot }) => (
@@ -67,7 +67,7 @@ function Sidebar() {
         <div className={cx('flex mt-5 gap-[10px] mb-4', collapsed ? 'flex-col' : 'flex-row ')}>
           {!collapsed && (
             <Tooltip content={t('GitHub')}>
-              <a href="https://github.com/SingularityLabs-ai/MultiGPT?utm_source=extension" target="_blank" rel="noreferrer">
+              <a href="https://github.com/SingularityLabs-ai/GrandGPT?utm_source=extension" target="_blank" rel="noreferrer">
                 <IconButton icon={githubIcon} />
               </a>
             </Tooltip>
