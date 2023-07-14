@@ -72,7 +72,7 @@
 
 ## 🔧 手动安装
 
-- 从 [Releases](https://github.com/SingularityLabs-ai/MultiGPT/releases) 下载 MultiGPT.zip
+- 从 [Releases](https://github.com/SingularityLabs-ai/GrandGPT/releases) 下载 MultiGPT.zip
 - 解压文件
 - 在 Chrome/Edge 中进入扩展页面 (chrome://extensions 或 edge://extensions)
 - 启用开发者模式
@@ -87,5 +87,4 @@
 
 ### 信用
 
-这个项目的灵感来自 https://github.com/ZohaibAhmed/ChatGPT-Google , https://github.com/wong2/chatgpt-google-extension and https://github.com/SingularityLabs-ai/MultiGPT
-
+这个项目的灵感来自 https://github.com/ZohaibAhmed/ChatGPT-Google , https://github.com/wong2/chatgpt-google-extension

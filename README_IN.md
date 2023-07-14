@@ -72,7 +72,7 @@
 
 ## 🔧 Instalasi Manual
 
-- Unduh grandgpt.zip dari [Release](https://github.com/SingularityLabs-ai/MultiGPT/releases)
+- Unduh grandgpt.zip dari [Release](https://github.com/SingularityLabs-ai/GrandGPT/releases)
 - Ekstrak file
 - Di Chrome/Edge, buka halaman ekstensi (chrome://extensions atau edge://extensions)
 - Aktifkan Mode Pengembang
@@ -87,5 +87,4 @@
 
 ### Kredit
 
-Proyek ini terinspirasi oleh https://github.com/ZohaibAhmed/ChatGPT-Google , https://github.com/wong2/chatgpt-google-extension and https://github.com/SingularityLabs-ai/MultiGPT
-
+Proyek ini terinspirasi oleh https://github.com/ZohaibAhmed/ChatGPT-Google , https://github.com/wong2/chatgpt-google-extension

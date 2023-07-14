@@ -77,7 +77,7 @@ English &nbsp;&nbsp;|&nbsp;&nbsp; [Indonesia](README_IN.md) &nbsp;&nbsp;|&nbsp;&
 
 ## 🔧 Manual Installation
 
-- Download grandgpt.zip from [Releases](https://github.com/SingularityLabs-ai/MultiGPT/releases)
+- Download grandgpt.zip from [Releases](https://github.com/SingularityLabs-ai/GrandGPT/releases)
 - Unzip the file
 - In Chrome/Edge go to the extensions page (chrome://extensions or edge://extensions)
 - Enable Developer Mode
@@ -92,5 +92,4 @@ English &nbsp;&nbsp;|&nbsp;&nbsp; [Indonesia](README_IN.md) &nbsp;&nbsp;|&nbsp;&
 
 ### Credit
 
-This project is inspired by https://github.com/ZohaibAhmed/ChatGPT-Google , https://github.com/wong2/chatgpt-google-extension and https://github.com/SingularityLabs-ai/MultiGPT
-
+This project is inspired by https://github.com/ZohaibAhmed/ChatGPT-Google , https://github.com/wong2/chatgpt-google-extension

@@ -73,7 +73,7 @@
 
 ## 🔧 手動インストール
 
-- [リリース](https://github.com/SingularityLabs-ai/MultiGPT/releases)から MultiGPT.zip をダウンロード
+- [リリース](https://github.com/SingularityLabs-ai/GrandGPT/releases)から MultiGPT.zip をダウンロード
 - ファイルを解凍
 - Chrome/Edge で拡張機能ページに移動します (chrome://extensions または edge://extensions)
 - 開発者モードを有効にする
@@ -88,5 +88,4 @@
 
 ### クレジット
 
-このプロジェクトのインスピレーションとなったのは、 https://github.com/ZohaibAhmed/ChatGPT-Google , https://github.com/wong2/chatgpt-google-extension and https://github.com/SingularityLabs-ai/MultiGPT
-
+このプロジェクトのインスピレーションとなったのは、 https://github.com/ZohaibAhmed/ChatGPT-Google , https://github.com/wong2/chatgpt-google-extension
