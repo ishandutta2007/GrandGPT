@@ -35,7 +35,7 @@ export default defineManifest(async (env) => {
           linux: 'Alt+J',
           mac: 'Command+J',
         },
-        description: 'Open GrandGPT app',
+        description: 'Open MultiGPT app',
       },
     },
     side_panel: {

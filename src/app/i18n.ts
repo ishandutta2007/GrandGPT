@@ -5,7 +5,7 @@ import { initReactI18next } from 'react-i18next'
 const resources = {
   zh: {
     translation: {
-      'Shortcut to open this app': '打开GrandGPT的快捷键',
+      'Shortcut to open this app': '打开MultiGPT的快捷键',
       Settings: '设置',
       'Startup page': '启动页面',
       'Chat style': '会话风格',
@@ -29,8 +29,8 @@ const resources = {
       'Chat history full-text search': '全文搜索聊天记录',
       'Customize theme': '自定义主题',
       'More features in the future': '享受未来所有功能更新',
-      'Support the development of GrandGPT': '支持GrandGPT的开发',
-      'Enjoy GrandGPT? Give us a 5-star rating!': '喜欢GrandGPT吗？给我们个5星好评吧！',
+      'Support the development of MultiGPT': '支持MultiGPT的开发',
+      'Enjoy MultiGPT? Give us a 5-star rating!': '喜欢MultiGPT吗？给我们个5星好评吧！',
       'Write review': '去评价',
       'Activate license': '激活License',
       '🎉 License activated': '🎉 License已激活',
@@ -56,8 +56,8 @@ const resources = {
       'Model used by ChatGPT iOS app, potentially faster': 'ChatGPT iOS app使用的模型，可能更快',
       'Poe subscribers only': 'Poe订阅会员可用',
       'Quick access in Chrome side bar': '在Chrome侧边栏快速访问',
-      'You have opened GrandGPT {{openTimes}} times, consider unlock all features?':
-        '哇！你已经打开GrandGPT {{openTimes}}次了，是否要解锁全部功能呢？🥺',
+      'You have opened MultiGPT {{openTimes}} times, consider unlock all features?':
+        '哇！你已经打开MultiGPT {{openTimes}}次了，是否要解锁全部功能呢？🥺',
       'Open Prompt Library': '管理提示词',
       'Use / to select prompts, Shift+Enter to add new line': '使用 / 选择提示词，Shift+Enter添加换行',
       'Your Prompts': '你的提示词',
@@ -150,8 +150,8 @@ const resources = {
       'Chat history full-text search': 'Pencarian teks penuh riwayat percakapan',
       'Customize theme': 'Kustomisasi tema',
       'More features in the future': 'Lebih banyak fitur di masa depan',
-      'Support the development of GrandGPT': 'Dukung pengembangan GrandGPT',
-      'Enjoy GrandGPT? Give us a 5-star rating!': 'Menikmati GrandGPT? Beri kami rating 5 bintang!',
+      'Support the development of MultiGPT': 'Dukung pengembangan MultiGPT',
+      'Enjoy MultiGPT? Give us a 5-star rating!': 'Menikmati MultiGPT? Beri kami rating 5 bintang!',
       'Write review': 'Tulis ulasan',
       'Activate license': 'Aktifkan lisensi',
       '🎉 License activated': '🎉 Lisensi diaktifkan',
@@ -178,8 +178,8 @@ const resources = {
         'Model yang digunakan oleh aplikasi ChatGPT iOS, mungkin lebih cepat',
       'Poe subscribers only': 'Hanya pelanggan Poe',
       'Quick access in Chrome side bar': 'Akses cepat di sisi bilah Chrome',
-      'You have opened GrandGPT {{openTimes}} times, consider unlock all features?':
-        'Wow! Anda telah membuka GrandGPT sebanyak {{openTimes}} kali, pertimbangkan untuk membuka semua fitur?',
+      'You have opened MultiGPT {{openTimes}} times, consider unlock all features?':
+        'Wow! Anda telah membuka MultiGPT sebanyak {{openTimes}} kali, pertimbangkan untuk membuka semua fitur?',
       'Open Prompt Library': 'Buka Perpustakaan Prompt',
       'Use / to select prompts, Shift+Enter to add new line':
         'Gunakan / untuk memilih prompt, Shift+Enter untuk menambahkan baris baru',

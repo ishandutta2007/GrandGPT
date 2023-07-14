@@ -9,8 +9,8 @@ import { viteZip } from 'vite-plugin-zip-file';
 export default defineConfig({
   plugins: [tsconfigPaths(), react(), crx({ manifest }),
     viteZip({
-      folderPath: '/Users/ishandutta2007/Documents/Projects/GrandGPT/dist',
-      outPath: '/Users/ishandutta2007/Documents/Projects/GrandGPT/zips',
+      folderPath: '/Users/ishandutta2007/Documents/Projects/MultiGPT/dist',
+      outPath: '/Users/ishandutta2007/Documents/Projects/MultiGPT/zips',
       // outPath: path.resolve(__dirname),
       zipName: 'chromium.zip',
       // enabled: env.NODE_ENV === 'production'? true: false

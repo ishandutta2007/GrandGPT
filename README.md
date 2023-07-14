@@ -2,11 +2,11 @@
     <img src="./src/assets/icon.png" width="150">
 </p>
 
-<h1 align="center">GrandGPT</h1>
+<h1 align="center">MultiGPT</h1>
 
 <div align="center">
 
-### GrandGPT is a multi-chatbot
+### MultiGPT is a multi-chatbot
 
 [![author][author-image]][author-url]
 [![license][license-image]][license-url]
@@ -19,8 +19,8 @@ English &nbsp;&nbsp;|&nbsp;&nbsp; [Indonesia](README_IN.md) &nbsp;&nbsp;|&nbsp;&
 
 ### Install
 
-<a href="https://chrome.google.com/webstore/detail/"><img src="https://user-images.githubusercontent.com/64502893/231991498-8df6dd63-727c-41d0-916f-c90c15127de3.png" width="200" alt="Get GrandGPT for Chromium"></a>
-<a href="https://microsoftedge.microsoft.com/addons/detail/"><img src="https://user-images.githubusercontent.com/64502893/231991158-1b54f831-2fdc-43b6-bf9a-f894000e5aa8.png" width="160" alt="Get GrandGPT for Microsoft Edge"></a>
+<a href="https://chrome.google.com/webstore/detail/"><img src="https://user-images.githubusercontent.com/64502893/231991498-8df6dd63-727c-41d0-916f-c90c15127de3.png" width="200" alt="Get MultiGPT for Chromium"></a>
+<a href="https://microsoftedge.microsoft.com/addons/detail/"><img src="https://user-images.githubusercontent.com/64502893/231991158-1b54f831-2fdc-43b6-bf9a-f894000e5aa8.png" width="160" alt="Get MultiGPT for Microsoft Edge"></a>
 
 ##
 
@@ -28,12 +28,12 @@ English &nbsp;&nbsp;|&nbsp;&nbsp; [Indonesia](README_IN.md) &nbsp;&nbsp;|&nbsp;&
 
 [author-image]: https://img.shields.io/badge/author-wong2-blue.svg
 [author-url]: https://github.com/wong2
-[license-image]: https://img.shields.io/github/license/ishandutta2007/GrandGPT?color=blue
-[license-url]: https://github.com/SingularityLabs-ai/GrandGPT/blob/main/LICENSE
-[release-image]: https://img.shields.io/github/v/release/ishandutta2007/GrandGPT?color=blue
-[release-url]: https://github.com/SingularityLabs-ai/GrandGPT/releases/latest
-[last-commit-image]: https://img.shields.io/github/last-commit/ishandutta2007/GrandGPT?label=last%20commit
-[last-commit-url]: https://github.com/SingularityLabs-ai/GrandGPT/commits
+[license-image]: https://img.shields.io/github/license/ishandutta2007/MultiGPT?color=blue
+[license-url]: https://github.com/SingularityLabs-ai/MultiGPT/blob/main/LICENSE
+[release-image]: https://img.shields.io/github/v/release/ishandutta2007/MultiGPT?color=blue
+[release-url]: https://github.com/SingularityLabs-ai/MultiGPT/releases/latest
+[last-commit-image]: https://img.shields.io/github/last-commit/ishandutta2007/MultiGPT?label=last%20commit
+[last-commit-url]: https://github.com/SingularityLabs-ai/MultiGPT/commits
 
 </div>
 
@@ -77,7 +77,7 @@ English &nbsp;&nbsp;|&nbsp;&nbsp; [Indonesia](README_IN.md) &nbsp;&nbsp;|&nbsp;&
 
 ## 🔧 Manual Installation
 
-- Download grandgpt.zip from [Releases](https://github.com/SingularityLabs-ai/GrandGPT/releases)
+- Download grandgpt.zip from [Releases](https://github.com/SingularityLabs-ai/MultiGPT/releases)
 - Unzip the file
 - In Chrome/Edge go to the extensions page (chrome://extensions or edge://extensions)
 - Enable Developer Mode
@@ -92,5 +92,5 @@ English &nbsp;&nbsp;|&nbsp;&nbsp; [Indonesia](README_IN.md) &nbsp;&nbsp;|&nbsp;&
 
 ### Credit
 
-This project is inspired by https://github.com/ZohaibAhmed/ChatGPT-Google , https://github.com/wong2/chatgpt-google-extension and https://github.com/SingularityLabs-ai/GrandGPT
+This project is inspired by https://github.com/ZohaibAhmed/ChatGPT-Google , https://github.com/wong2/chatgpt-google-extension and https://github.com/SingularityLabs-ai/MultiGPT
 

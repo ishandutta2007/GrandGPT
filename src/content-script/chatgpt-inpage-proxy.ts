@@ -3,7 +3,7 @@ import { setupProxyExecutor } from '~services/proxy-fetch'
 
 function injectTip() {
   const div = document.createElement('div')
-  div.innerText = 'Please keep this tab open, now you can go back to GrandGPT'
+  div.innerText = 'Please keep this tab open, now you can go back to MultiGPT'
   div.style.position = 'fixed'
   // put the div at right top of page
   div.style.top = '0'
@@ -16,7 +16,7 @@ function injectTip() {
 }
 
 async function main() {
-  console.log("GrandGPT:main");//<FixedPlusButton onClick={() => toggle(!isActive)} />
+  console.log("MultiGPT:main");//<FixedPlusButton onClick={() => toggle(!isActive)} />
   Browser.runtime.onMessage.addListener(async (message) => {
     if (message === 'url') {
       return location.href

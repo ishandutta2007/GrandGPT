@@ -2,11 +2,11 @@
     <img src="./src/assets/icon.png" width="150">
 </p>
 
-<h1 align="center">GrandGPT</h1>
+<h1 align="center">MultiGPT</h1>
 
 <div align="center">
 
-### GrandGPT 是個全能的聊天機器人客戶端
+### MultiGPT 是個全能的聊天機器人客戶端
 
 [![作者][作者-image]][作者-url]
 [![許可證][許可證-image]][許可證-url]
@@ -19,8 +19,8 @@
     
 ### 安装
     
-<a href="https://chrome.google.com/webstore/detail"><img src="https://user-images.githubusercontent.com/64502893/231991498-8df6dd63-727c-41d0-916f-c90c15127de3.png" width="200" alt="获取 Chromium 版本的 GrandGPT"></a>&nbsp;&nbsp;
-<a href="https://microsoftedge.microsoft.com/addons/detail/"><img src="https://user-images.githubusercontent.com/64502893/231991158-1b54f831-2fdc-43b6-bf9a-f894000e5aa8.png" width="160" alt="获取 Microsoft Edge 版本的 GrandGPT"></a>
+<a href="https://chrome.google.com/webstore/detail"><img src="https://user-images.githubusercontent.com/64502893/231991498-8df6dd63-727c-41d0-916f-c90c15127de3.png" width="200" alt="获取 Chromium 版本的 MultiGPT"></a>&nbsp;&nbsp;
+<a href="https://microsoftedge.microsoft.com/addons/detail/"><img src="https://user-images.githubusercontent.com/64502893/231991158-1b54f831-2fdc-43b6-bf9a-f894000e5aa8.png" width="160" alt="获取 Microsoft Edge 版本的 MultiGPT"></a>
     
 ##
 
@@ -28,12 +28,12 @@
 
 [作者-image]: https://img.shields.io/badge/author-wong2-blue.svg
 [作者-url]: https://github.com/wong2    
-[許可證-image]: https://img.shields.io/github/license/ishandutta2007/GrandGPT?color=blue
-[許可證-url]: https://github.com/SingularityLabs-ai/GrandGPT/blob/main/LICENSE
-[發布-image]: https://img.shields.io/github/v/release/ishandutta2007/GrandGPT?color=blue
-[發布-url]: https://github.com/SingularityLabs-ai/GrandGPT/releases/latest
-[版本發佈-image]: https://img.shields.io/github/last-commit/ishandutta2007/GrandGPT?label=last%20commit
-[版本發佈-url]: https://github.com/SingularityLabs-ai/GrandGPT/commits
+[許可證-image]: https://img.shields.io/github/license/ishandutta2007/MultiGPT?color=blue
+[許可證-url]: https://github.com/SingularityLabs-ai/MultiGPT/blob/main/LICENSE
+[發布-image]: https://img.shields.io/github/v/release/ishandutta2007/MultiGPT?color=blue
+[發布-url]: https://github.com/SingularityLabs-ai/MultiGPT/releases/latest
+[版本發佈-image]: https://img.shields.io/github/last-commit/ishandutta2007/MultiGPT?label=last%20commit
+[版本發佈-url]: https://github.com/SingularityLabs-ai/MultiGPT/commits
 
 </div>
 
@@ -72,7 +72,7 @@
 
 ## 🔧 手動安裝
 
-- 從 [Releases](https://github.com/SingularityLabs-ai/GrandGPT/releases) 下載 grandgpt.zip
+- 從 [Releases](https://github.com/SingularityLabs-ai/MultiGPT/releases) 下載 grandgpt.zip
 - 解壓縮該文件
 - 在 Chrome/Edge 瀏覽器中，前往擴展功能頁面 (chrome://extensions 或 edge://extensions)
 - 啟用開發人員模式
@@ -87,5 +87,5 @@
 
 ### 信用
 
-這個項目的靈感來自 https://github.com/ZohaibAhmed/ChatGPT-Google , https://github.com/wong2/chatgpt-google-extension and https://github.com/SingularityLabs-ai/GrandGPT
+這個項目的靈感來自 https://github.com/ZohaibAhmed/ChatGPT-Google , https://github.com/wong2/chatgpt-google-extension and https://github.com/SingularityLabs-ai/MultiGPT
 

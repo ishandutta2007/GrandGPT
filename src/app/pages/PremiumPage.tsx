@@ -86,11 +86,11 @@ function PremiumPage() {
   //       <FeatureItem text={t('Customize theme')} />
   //       <FeatureItem
   //         text={t('Quick access in Chrome side bar')}
-  //         link="https://github.com/SingularityLabs-ai/GrandGPT/wiki/Access-from-Chrome-side-panel"
+  //         link="https://github.com/SingularityLabs-ai/MultiGPT/wiki/Access-from-Chrome-side-panel"
   //       />
   //       <FeatureItem text={t('Activate up to 5 devices')} />
   //       <FeatureItem text={t('More features in the future')} />
-  //       <FeatureItem text={t('Support the development of GrandGPT')} />
+  //       <FeatureItem text={t('Support the development of MultiGPT')} />
   //     </div>
   //     {premiumState.activated ? (
   //       <>
